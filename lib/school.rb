@@ -15,8 +15,11 @@ class School
   end
     
   def grade(grade)
+    grade_level = []
     @roster.collect do |grade,name|
-       
+      if grade == @roster[grade]
+        grade_level << name
+      else
     
     
   end
