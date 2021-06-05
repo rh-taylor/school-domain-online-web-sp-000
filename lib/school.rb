@@ -15,7 +15,7 @@ class School
   end
     
   def grade(grade)
-    @roser.collect do |grade|
+    @roster.collect do |grade|
       
     
     
